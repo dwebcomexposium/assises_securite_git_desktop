@@ -1,0 +1,197 @@
+/*
+
+		== Corporate / Catalogue
+		== My selection
+		.myselection --> .mysel-###
+
+*/
+/*
+ * ==My selection (in sidebar: foldable, redish background, lists of EPM)
+ */
+.myselection,
+.history {
+  padding: 0 1rem 1rem;
+  color: #ffffff;
+}
+.myselection {
+  background-color: #910f4f;
+}
+.history {
+  background-color: #0c8192;
+}
+.myselection.is-close .mysel-close-btn,
+.history.is-close .mysel-close-btn {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.myselection.is-close > *:not(.mysel-title),
+.history.is-close > *:not(.mysel-title),
+.myselection.is-close > *:not(.hist-title),
+.history.is-close > *:not(.hist-title) {
+  display: none;
+}
+.mysel-title,
+.hist-title {
+  position: relative;
+  padding: .8rem 0 .8rem 3.5rem;
+  border-color: inherit;
+  color: inherit;
+}
+.mysel-title .icon-star-full,
+.hist-title .icon-clock {
+  position: absolute;
+  top: .4rem;
+  left: 0rem;
+  font-size: 2.3rem;
+}
+.mysel-title .mysel-close-btn,
+.hist-title .hist-close-btn {
+  color: #ffffff;
+  text-decoration: none;
+}
+.myselection .qty-round,
+.history .qty-round {
+  position: absolute;
+  top: .7rem;
+  left: 1.3rem;
+  background-color: #ffffff;
+  box-sizing: content-box;
+  border: 1px solid;
+}
+.myselection .qty-round {
+  color: #910f4f;
+}
+.history .qty-round {
+  color: #0c8192;
+}
+.mysel-type,
+.hist-type {
+  position: relative;
+  padding: .5rem 0 0 2.2rem;
+}
+.mysel-type .qty-round-small,
+.hist-type .qty-round-small {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+}
+.hist-type {
+  padding-left: 0;
+}
+.mysel-type-title,
+.mysel-item-link,
+.mysel-item-remove .hist-type-title,
+.hist-item-link,
+.hist-item-remove {
+  text-decoration: none;
+  color: inherit;
+}
+.mysel-type-title:focus,
+.mysel-item-link:focus,
+.hist-type-title:focus,
+.hist-item-link:focus,
+.mysel-type-title:hover,
+.mysel-item-link:hover,
+.hist-type-title:hover,
+.hist-item-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.mysel-type-title,
+.hist-type-title {
+  font-weight: bold;
+}
+.mysel-item,
+.hist-item {
+  display: block;
+  position: relative;
+  padding: .8rem 3rem .8rem 0;
+  width: 100%;
+}
+.mysel-item:not(:last-child),
+.hist-item:not(:last-child),
+.mysel-item:first-child,
+.hist-item:first-child {
+  border-bottom: 1px solid #ffffff;
+}
+.mysel-item-link,
+.hist-item-link {
+  width: 100%;
+}
+.mysel-item-txt,
+.hist-item-txt {
+  padding-right: 3em;
+  font-size: 1.2rem;
+}
+.mysel-item-remove,
+.hist-item-remove {
+  position: absolute;
+  top: 1.2rem;
+  right: .8rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.mysel-item-remove:hover,
+.hist-item-remove:hover {
+  color: #51082c;
+}
+.mysel-footer,
+.hist-footer {
+  padding-top: 2rem;
+  text-align: center;
+}
+.mysel-footer .btn-primary,
+.hist-footer .btn-primary,
+.mysel-footer .btn-invert,
+.hist-footer .btn-invert {
+  display: inline-block;
+  margin: 0 auto 1rem;
+  padding: .4em 1em;
+  width: auto;
+  background-color: #51082c;
+  border-bottom-color: #51082c;
+  font-size: 1.4rem;
+  text-transform: none;
+}
+.mysel-footer .btn-primary:hover,
+.hist-footer .btn-primary:hover,
+.mysel-footer .btn-invert:hover,
+.hist-footer .btn-invert:hover {
+  background: #ffffff;
+  color: #51082c;
+  border-bottom-color: #ffffff;
+}
+.mysel-footer .btn-primary .icon,
+.hist-footer .btn-primary .icon,
+.mysel-footer .btn-invert .icon,
+.hist-footer .btn-invert .icon {
+  margin: 0 0 0 .5rem;
+  font-size: 1.3rem;
+  vertical-align: -0.2rem;
+}
+.hist-footer {
+  padding-top: 1rem;
+}
+.hist-footer .btn-invert {
+  background: #f6f9f9;
+  border-bottom-color: #f6f9f9;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.hist-footer .btn-invert:hover {
+  background: #00525e;
+  border-bottom-color: #00525e;
+  color: #ffffff;
+}
+.hist-footer .btn-invert:hover .icon {
+  color: #ffffff;
+}
+.hist-footer .btn-invert .icon {
+  color: #909b9d;
+  font-size: 1.1rem;
+  vertical-align: -0.2rem;
+  -webkit-transition: color 0.2s ease-in-out;
+          transition: color 0.2s ease-in-out;
+}

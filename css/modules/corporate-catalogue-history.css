@@ -1,0 +1,64 @@
+/*
+	
+		== Corporate / Catalogue
+		== Seen recently (history of navigation)
+		.history --> .hist-###
+*/
+/* 
+ * ==Seen recently (in sidebar: foldable, blueish background, lists of EPM)
+ */
+.history {
+  padding: 0 8px 20px 8px;
+  color: #ffffff;
+  background-color: #0c8192;
+}
+.hist-title {
+  border-color: inherit;
+  color: inherit;
+}
+.history .qty-round {
+  color: #910f4f;
+  background-color: #ffffff;
+}
+.hist-type-title,
+.hist-item-link,
+.hist-item-remove {
+  text-decoration: none;
+  color: inherit;
+}
+.hist-type-title:focus,
+.hist-item-link:focus,
+.hist-type-title:hover,
+.hist-item-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.hist-type-title {
+  font-weight: bold;
+}
+.hist-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.hist-item:not(:last-child),
+.hist-item:first-child {
+  border-bottom: 1px solid #ffffff;
+}
+.hist-item-link {
+  width: 100%;
+}
+.hist-item-txt {
+  padding-right: 3em;
+  font-size: 1.2rem;
+}
+.hist-footer {
+  padding-top: 20px;
+}
+.hist-footer .btn-primary {
+  width: 100%;
+  text-transform: none;
+  background-color: #51082c;
+}

@@ -1,0 +1,110 @@
+/** MODALBOX AGE LEGAL **/
+#noty_top_layout_container {
+  display: none;
+}
+#noty_center_layout_container {
+  width: 470px !important;
+}
+#noty_center_layout_container > li {
+  width: 470px !important;
+  border: none !important;
+  background: white !important;
+  overflow: initial !important;
+}
+#noty_center_layout_container > li .noty_message {
+  padding: 0 !important;
+  font-size: 1.4rem !important;
+  line-height: 1 !important;
+  color: #004a53 !important;
+  text-align: left !important;
+}
+#noty_center_layout_container > li .noty_message header {
+  padding: 10px 10px 10px 195px !important;
+  border-bottom: 1px solid #004a53 !important;
+  position: relative !important;
+  height: 98px !important;
+  text-align: left !important;
+  font-size: 2rem !important;
+  font-weight: 300 !important;
+  margin-bottom: 4rem !important;
+}
+#noty_center_layout_container > li .noty_message header img {
+  position: absolute !important;
+  top: 0 !important;
+  left: 25px !important;
+  width: 145px !important;
+}
+#noty_center_layout_container > li .noty_message header > div {
+  position: absolute !important;
+  bottom: 10px !important;
+}
+#noty_center_layout_container > li .noty_message header > div span {
+  display: block !important;
+  font-size: 3rem !important;
+  font-weight: 600 !important;
+  line-height: 3rem !important;
+}
+#noty_center_layout_container > li .noty_message .content {
+  text-align: center !important;
+}
+#noty_center_layout_container > li .noty_message .content .content-language {
+  margin-bottom: 3rem !important;
+}
+#noty_center_layout_container > li .noty_message .content .content-language .language-switcher {
+  color: #77969b !important;
+  text-transform: uppercase !important;
+  padding: 5px 7px !important;
+  cursor: pointer !important;
+  margin: 0 5px !important;
+  transition: all 0.3s;
+}
+#noty_center_layout_container > li .noty_message .content .content-language .language-switcher:hover {
+  background: #a4cfa1 !important;
+  color: white !important;
+}
+#noty_center_layout_container > li .noty_message .content .content-language .language-switcher.active {
+  background: #f3f3f3 !important;
+}
+#noty_center_layout_container > li .noty_message .content .content-language .language-switcher.active:hover {
+  color: #77969b !important;
+}
+#noty_center_layout_container > li .noty_message .content .content-language .language-switcher img {
+  margin-right: 7px !important;
+}
+#noty_center_layout_container > li .noty_message .content .title {
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  font-size: 1.6rem !important;
+}
+#noty_center_layout_container > li .noty_buttons {
+  border: none !important;
+  text-align: center !important;
+  position: relative !important;
+  margin-top: 35px !important;
+}
+#noty_center_layout_container > li .noty_buttons button {
+  background: #77969b !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600 !important;
+  height: 50px !important;
+  padding: 0 25px !important;
+  position: absolute !important;
+  left: 50% !important;
+  bottom: -25px !important;
+  transform: translateX(-50%) !important;
+  transition: all 0.3s;
+}
+#noty_center_layout_container > li .noty_buttons button:hover,
+#noty_center_layout_container > li .noty_buttons button:active,
+#noty_center_layout_container > li .noty_buttons button:focus {
+  background: #a4cfa1 !important;
+}
+#noty_center_layout_container > li .lang-en {
+  display: none;
+}
+
+#noty_654165458214578400 > div.noty_message > span > div > p.lang-en, #noty_654165458214578400 > div.noty_message > span > div > p.lang-fr
+    padding-left: 15px;
+    padding-right: 15px;
+}
