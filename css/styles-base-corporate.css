@@ -4415,3 +4415,23 @@ body {
  	== Print CSS
 
 */
+a.externe.lien1{
+    border-radius: 3px;
+    padding: 0.6em 0.8em;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    border: 0px solid transparent;
+    border-width: 0;
+    border: 0px;
+    padding: 0.5em 1.4em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    color: #ffffff;
+    background-color: #ed1c24;
+}
