@@ -1,0 +1,54 @@
+article.gla-item {
+    margin: 0;
+    flex: 0 1 32%;
+    display: flex;
+    flex-wrap: unset;
+    -webkit-box-orient: unset;
+    -webkit-flex-direction: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
+	    box-shadow: inherit;
+}
+.grid-la-list {
+    display: flex;
+    flex-wrap: wrap;
+        justify-content: flex-start;
+    webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+flex: 1;
+}
+
+.gla-item-content{
+	flex: 1 0 auto;
+}
+.gla-item>a{
+	display: flex;
+    flex-direction: column;
+}
+
+.gla-item-content {
+    width: 100%;
+    position: relative;
+    bottom: inherit;
+    padding-bottom: 1.5rem;
+    left: inherit;
+    right: inherit;
+}
+
+h2.gla-item-title {
+    font-weight: 700;
+    padding-top: 10px;
+}
+h2.gla-item-title span {
+    font-weight: 500;
+    padding-top: 12px;
+    display: block;
+}
+
+.grid-la-list .gla-item a:hover {
+    color: #ed1c24;
+    text-decoration: underline;
+    transition: 0.5s;
+    box-shadow: 0 0 15px rgba(20,22,24,.2);
+}
