@@ -1,4 +1,4 @@
-article.gla-item {
+body.article_list article.gla-item {
     margin: 0;
     flex: 0 1 32%;
     display: flex;
@@ -9,7 +9,7 @@ article.gla-item {
     flex-direction: unset;
 	    box-shadow: inherit;
 }
-.grid-la-list {
+body.article_list .grid-la-list {
     display: flex;
     flex-wrap: wrap;
         justify-content: flex-start;
@@ -19,15 +19,15 @@ article.gla-item {
 flex: 1;
 }
 
-.gla-item-content{
+body.article_list .gla-item-content{
 	flex: 1 0 auto;
 }
-.gla-item>a{
+body.article_list .gla-item>a{
 	display: flex;
     flex-direction: column;
 }
 
-.gla-item-content {
+body.article_list .gla-item-content {
     width: 100%;
     position: relative;
     bottom: inherit;
@@ -36,17 +36,17 @@ flex: 1;
     right: inherit;
 }
 
-h2.gla-item-title {
+body.article_list h2.gla-item-title {
     font-weight: 700;
     padding-top: 10px;
 }
-h2.gla-item-title span {
+body.article_list h2.gla-item-title span {
     font-weight: 500;
     padding-top: 12px;
     display: block;
 }
 
-.grid-la-list .gla-item a:hover {
+body.article_list .grid-la-list .gla-item a:hover {
     color: #ed1c24;
     text-decoration: underline;
     transition: 0.5s;
