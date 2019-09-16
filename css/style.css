@@ -12185,3 +12185,8 @@ footer .quicklinks-navigation a.ql-item-link {
 .is-stuck .homeLogo {
    z-index: 10;
 }
+
+/* Décalage du corps de l'article par rapport aux iframe Event Catalyst */
+.partners_page {
+width: initial !important;
+}
