@@ -1974,12 +1974,12 @@ input[type=checkbox].ac-switcher {
 /* ----------------------------------- */
 /* == MODULE STYLES   */
 /* ----------------------------------- */
-@font-face {
+/*@font-face {
   font-family: 'esf-comexposium';
   src: url('../fonts/esf-comexposium/esf-comexposium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
+}*/
 [class^="icon-"],
 [class*=" icon-"],
 .esf-has-sub-items > .esf-choice-container .esf-next-lvl:after {
